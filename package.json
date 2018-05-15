@@ -1,0 +1,16 @@
+{
+	"name": "extras",
+	"version": "1.0.0",
+	"description": "Svelte \"extra methods\" packed as an Altiva module",
+	"main": "extras.js",
+	"scripts": {
+		"build": "node --experimental-modules src/extras.mjs",
+		"prepare": "npm run build",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Paulo Coghi",
+	"license": "MIT",
+	"devDependencies": {
+		"svelte-extras": "^2.0.2"
+	}
+}
